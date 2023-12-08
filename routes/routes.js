@@ -29,7 +29,6 @@ let personSchema = mongoose.Schema({
     name: String,
     age: String,
     species: String,
-    isSexOffender: Boolean
 })
 
 //Create a model. Used for CRUD operations
